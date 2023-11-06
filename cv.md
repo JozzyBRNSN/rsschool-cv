@@ -10,3 +10,10 @@
 ## About me
 
 I have little experience working with educational layout projects. I want to train as a front-end developer and also gain experience in developing applications in JS.
+
+## Skills
+
+- **HTML**
+- **CSS**
+- **JavaScript(Basic)**
+- **Git(Basic)**
