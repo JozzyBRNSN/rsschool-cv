@@ -17,3 +17,13 @@ I have little experience working with educational layout projects. I want to tra
 - **CSS**
 - **JavaScript(Basic)**
 - **Git(Basic)**
+
+## Education
+
+- **Belarusian State University, Historical faculty**
+
+## Languages
+
+- **Belarusian**
+- **Russian**
+- **English(А2)**
