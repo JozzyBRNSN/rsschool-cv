@@ -1,8 +1,27 @@
 * {
     max-width: 1440px;
     background-color: #E1D4C9;
+    font-family: Inter;
 }
 
 .header-menu {
-    margin: 20px 40px 20px 40px;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    justify-content: space-between;
 }
+
+.header-menu ul  {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header-menu a {
+    font-size: 16px;
+    
+    text-decoration: none;
+    color: #403F3D;
+    padding: 0px 20px 0 20px;
+
+}
+
