@@ -6,7 +6,7 @@
 }
 
 body {
-    width: 100%;
+    width: 1440px;
 }
 
     header {
@@ -45,11 +45,10 @@ body {
 
             .header-menu a {
                 font-size: 16px;
-                font-weight: 700;
+                font-weight: 600;
                 text-decoration: none;
                 color: #403F3D;
                 padding: 0px 20px 0 20px;
-
             }
 
                 .logo {
@@ -152,3 +151,50 @@ body {
             font-weight: 600;
             line-height: 125%;
         }
+
+        .slider {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 40px;
+        }
+            .slider-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+                .slider-img {
+                    background-image: url(img/coffee-slider-1.svg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 480px;
+                    height: 480px;
+                    padding-bottom: 20px;
+                }
+
+                .reverse {
+                    transform: rotate(180deg); 
+                }
+
+                .slider-img_text h2 {
+                    color: var(--text-dark, #403F3D);
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 125%; 
+                }
+
+                .slider-img_text p {
+                    padding: 16px 0;
+                    color: var(--text-dark, #403F3D);
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                }
+
