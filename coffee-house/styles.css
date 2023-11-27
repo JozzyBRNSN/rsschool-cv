@@ -448,7 +448,6 @@ body {
                 .contacts-info h2 {
                     align-self: stretch;
                     color: var(--text-light, #E1D4C9);
-                    font-feature-settings: 'clig' off, 'liga' off;
                     font-family: Inter;
                     font-size: 24px;
                     font-style: normal;
