@@ -5,7 +5,6 @@
     font-family: 'Inter', sans-serif;
 }
 html {
-    
     scroll-behavior: smooth;
 }
 
@@ -275,12 +274,20 @@ body::-webkit-scrollbar {
                         border-radius: 20px;
                     }
 
+                    .about-box1:hover {
+                        background-size: cover;
+                    }
+
                     .about-box2 {
                         background-image: url(img/about-2.svg);
                         background-position: center;
                         width: 660px;
                         height: 430px;
                         border-radius: 20px;
+                    }
+
+                    .about-box2:hover {
+                        background-size: cover;
                     }
 
                 .about-img_column2 {
@@ -298,15 +305,20 @@ body::-webkit-scrollbar {
                         border-radius: 20px;    
                     }
 
+                    .about-box3:hover {
+                        background-size: cover;
+                    }
+
                     .about-box4 {
                         background-image: url(img/about-4.svg);
                         background-position: center;
-                        display: flex;
                         width: 660px;
                         height: 590px;
-                        justify-content: center;
-                        align-items: center;
                         border-radius: 20px;    
+                    }
+
+                    .about-box4:hover {
+                        background-size: cover;
                     }
 
     #mobile-app {
@@ -670,29 +682,75 @@ body::-webkit-scrollbar {
 
                     .box1 {
                         background-image: url(img/coffee-1.svg);
+                        background-position: center;
                     }
+
+                        .box1:hover {
+                            background-size: cover;
+                        }
 
                     .box2 {
                         background-image: url(img/coffee-2.svg);
+                        background-position: center;
                     }
+
+                        .box2:hover {
+                            background-size: cover;
+                        }
+
                     .box3 {
                         background-image: url(img/coffee-3.svg);
+                        background-position: center;
                     }
+
+                        .box3:hover {
+                            background-size: cover;
+                        }
+
                     .box4 {
                         background-image: url(img/coffee-4.svg);
+                        background-position: center;
                     }
+
+                        .box4:hover {
+                            background-size: cover;
+                        }
+
                     .box5 {
                         background-image: url(img/coffee-5.svg);
+                        background-position: center;
                     }
+
+                        .box5:hover {
+                            background-size: cover;
+                        }
+
                     .box6 {
                         background-image: url(img/coffee-6.svg);
+                        background-position: center;
                     }
+
+                        .box6:hover {
+                            background-size: cover;
+                        }
+
                     .box7 {
                         background-image: url(img/coffee-7.svg);
+                        background-position: center;
                     }
+
+                        .box7:hover {
+                            background-size: cover;
+                        }
+
                     .box8 {
                         background-image: url(img/coffee-8.svg);
+                        background-position: center;
                     }
+
+                        .box8:hover {
+                            background-size: cover;
+                        }
 
                         .description {
                             display: flex;
