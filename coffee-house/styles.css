@@ -5,11 +5,17 @@
     font-family: 'Inter', sans-serif;
 }
 html {
+    
     scroll-behavior: smooth;
 }
 
 body {
     width: 1440px;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
     header {
@@ -491,9 +497,13 @@ body {
                             background-color: rgba(0, 0, 0, 0);
                         }
 
-                        .link img {
+                        .link a {
                             background-color: rgba(0, 0, 0, 0);
                         }
+
+                            .link img {
+                                background-color: rgba(0, 0, 0, 0);
+                            }
                     
 /* MENU.HTML */   
 
